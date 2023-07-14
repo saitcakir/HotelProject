@@ -30,7 +30,7 @@ namespace HotelProject.DataAccessLayer.Repositories
 
         }
 
-        public List<T> GetList(T t)
+        public List<T> GetList()
         {
             return _context.Set<T>().ToList();
         }
